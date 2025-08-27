@@ -7,11 +7,7 @@ class Solution {
         reverse = reverse * 10 + y;
         x  = x/10;
        }
-       if (c  == reverse){
-        return true;
-       } else {
-        return false;
-       }
+        return c  == reverse;
         
     }
 }
